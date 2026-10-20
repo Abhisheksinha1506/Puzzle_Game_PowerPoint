@@ -179,11 +179,16 @@ def extract(deck):
     """Write xml/ and game.md for one deck."""
     rel = deck.relative_to(ROOT / "versions").with_suffix("")
     dest = OUT / rel
+    base = (dest / "xml").resolve()
     with zipfile.ZipFile(deck) as z:
         for name in z.namelist():
             if name.startswith("ppt/media/") or name.endswith("/"):
                 continue
-            target = dest / "xml" / name
+            target = (base / name).resolve()
+            if "\\" in name or not target.is_relative_to(base):
+                # Zip Slip guard: never write outside this deck's xml/ folder.
+                print("skipped unsafe entry %r in %s" % (name, deck.name))
+                continue
             target.parent.mkdir(parents=True, exist_ok=True)
             data = z.read(name)
             if name.endswith((".xml", ".rels")):
