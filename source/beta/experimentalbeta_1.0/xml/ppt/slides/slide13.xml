@@ -1,0 +1,187 @@
+<?xml version="1.0" ?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Дата 1"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="dt" sz="half" idx="10"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{0332299B-6337-4819-AAF8-753C5CC81ABF}" type="datetime9">
+              <a:rPr lang="ru-RU" smtClean="0"/>
+              <a:pPr/>
+              <a:t>16.04.2023 0:28:15</a:t>
+            </a:fld>
+            <a:endParaRPr lang="ru-RU"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Нижний колонтитул 2"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="ftr" sz="quarter" idx="11"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="az-Latn-AZ" smtClean="0"/>
+              <a:t>Experimental Beta (1.0)</a:t>
+            </a:r>
+            <a:endParaRPr lang="ru-RU"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="4" name="Рисунок 3" descr="sadface_jumpscare.png"/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId3"/>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="0"/>
+            <a:ext cx="9144000" cy="6858000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:transition advTm="2000"/>
+  <p:timing>
+    <p:tnLst>
+      <p:par>
+        <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+          <p:childTnLst>
+            <p:seq concurrent="1" nextAc="seek">
+              <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+                <p:childTnLst>
+                  <p:par>
+                    <p:cTn id="3" fill="hold">
+                      <p:stCondLst>
+                        <p:cond delay="indefinite"/>
+                      </p:stCondLst>
+                      <p:childTnLst>
+                        <p:par>
+                          <p:cTn id="4" fill="hold">
+                            <p:stCondLst>
+                              <p:cond delay="0"/>
+                            </p:stCondLst>
+                            <p:childTnLst>
+                              <p:par>
+                                <p:cTn id="5" presetID="0" presetClass="path" presetSubtype="0" autoRev="1" fill="hold" nodeType="clickEffect">
+                                  <p:stCondLst>
+                                    <p:cond delay="0"/>
+                                  </p:stCondLst>
+                                  <p:childTnLst>
+                                    <p:animMotion origin="layout" path="M 5.55556E-7 2.96296E-6 C -0.00313 2.96296E-6 0.01597 -0.00625 0.01319 -0.00672 C 0.01042 -0.00718 -0.01806 -0.00301 -0.01667 -0.00232 C -0.01528 -0.00162 0.0224 -0.00232 0.02153 -0.00232 C 0.02066 -0.00232 -0.02344 -0.00162 -0.0217 -0.00232 C -0.01997 -0.00301 0.0283 -0.00718 0.0316 -0.00672 C 0.0349 -0.00625 0.00312 2.96296E-6 5.55556E-7 2.96296E-6 Z " pathEditMode="relative" ptsTypes="aaaaaaa">
+                                      <p:cBhvr>
+                                        <p:cTn id="6" dur="500" fill="hold"/>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="4"/>
+                                        </p:tgtEl>
+                                        <p:attrNameLst>
+                                          <p:attrName>ppt_x</p:attrName>
+                                          <p:attrName>ppt_y</p:attrName>
+                                        </p:attrNameLst>
+                                      </p:cBhvr>
+                                    </p:animMotion>
+                                  </p:childTnLst>
+                                  <p:subTnLst>
+                                    <p:audio>
+                                      <p:cMediaNode vol="100000">
+                                        <p:cTn display="0" masterRel="sameClick">
+                                          <p:stCondLst>
+                                            <p:cond evt="begin" delay="0">
+                                              <p:tn val="5"/>
+                                            </p:cond>
+                                          </p:stCondLst>
+                                          <p:endCondLst>
+                                            <p:cond evt="onStopAudio" delay="0">
+                                              <p:tgtEl>
+                                                <p:sldTgt/>
+                                              </p:tgtEl>
+                                            </p:cond>
+                                          </p:endCondLst>
+                                        </p:cTn>
+                                        <p:tgtEl>
+                                          <p:sndTgt r:embed="rId2" name="go_alert2a.wav"/>
+                                        </p:tgtEl>
+                                      </p:cMediaNode>
+                                    </p:audio>
+                                  </p:subTnLst>
+                                </p:cTn>
+                              </p:par>
+                            </p:childTnLst>
+                          </p:cTn>
+                        </p:par>
+                      </p:childTnLst>
+                    </p:cTn>
+                  </p:par>
+                </p:childTnLst>
+              </p:cTn>
+              <p:prevCondLst>
+                <p:cond evt="onPrev" delay="0">
+                  <p:tgtEl>
+                    <p:sldTgt/>
+                  </p:tgtEl>
+                </p:cond>
+              </p:prevCondLst>
+              <p:nextCondLst>
+                <p:cond evt="onNext" delay="0">
+                  <p:tgtEl>
+                    <p:sldTgt/>
+                  </p:tgtEl>
+                </p:cond>
+              </p:nextCondLst>
+            </p:seq>
+          </p:childTnLst>
+        </p:cTn>
+      </p:par>
+    </p:tnLst>
+  </p:timing>
+</p:sld>
